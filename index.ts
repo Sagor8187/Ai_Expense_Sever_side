@@ -3,7 +3,7 @@ import type { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import { Db, MongoClient, ObjectId, ServerApiVersion } from 'mongodb';
-
+// config env file
 dotenv.config();
 
 const app: Express = express();
